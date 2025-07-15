@@ -1,7 +1,6 @@
 import requests
 
 # 脆弱なハードコードされた API キー
-API_KEY = "sk_test_4eC39HqLyjWDarjtT1zdp7dc"
 
 def make_payment(amount, currency="usd"):
     url = "https://api.paymentgateway.com/v1/charges"
